@@ -21,10 +21,10 @@ The project was built as a full database-design exercise: starting from a concep
 
 ## Entity-Relationship Design
 
-The conceptual model features three specialization hierarchies (`SPACE`, `CUSTOMER`, `EMPLOYEE`), a recursive relationship, composite/multivalued/derived attributes, and both a weak entity and an associative many-to-many entity — see [`docs/eer-diagram.png`](docs/eer-diagram.png) for the full diagram.
+The conceptual model features three specialization hierarchies (`SPACE`, `CUSTOMER`, `EMPLOYEE`), a recursive relationship, composite/multivalued/derived attributes, and both a weak entity and an associative many-to-many entity — see [`docs/eer-diagram.png`](EER/eer-diagram.png) for the full diagram.
 
 <p align="center">
-  <img src="docs/eer-diagram.png" alt="EER Diagram" width="800">
+  <img src="EER/eer-diagram.png" alt="EER Diagram" width="800">
 </p>
 
 ## Schema Highlights
