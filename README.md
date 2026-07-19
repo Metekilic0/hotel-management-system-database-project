@@ -50,7 +50,7 @@ The conceptual model features three specialization hierarchies (`SPACE`, `CUSTOM
 
 ```bash
 createdb hoteldb
-psql -d hoteldb -f hotel_project.sql
+psql -d hoteldb -f  hotel_management_system_database_project.sql
 ```
 
 The script is fully self-contained: it (re)creates the schema from scratch, applies all constraints, seeds a realistic test dataset (3 hotels, 13 spaces, 10 staff, 13 customers, 15 reservations, conference bookings, service logs, and maintenance tickets), installs the views and triggers, and finishes by running the sample query set.
@@ -59,7 +59,7 @@ The script is fully self-contained: it (re)creates the schema from scratch, appl
 
 ```
 .
-├── hotel_project.sql     # Full DDL, constraints, triggers, views, seed data, and sample queries
+├──  hotel_management_system_database_project.sql    # Full DDL, constraints, triggers, views, seed data, and sample queries
 ├── docs/
 │   └── eer-diagram.png   # Conceptual EER diagram
 └── README.md
